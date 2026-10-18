@@ -1,0 +1,22 @@
+# Tutorial 4 - errors_reliability_coordination.ipynb
+# Install: pip install -r requirements.txt
+
+# Agents (OpenAIChatModel, RunUsage as a property, UsageLimits)
+pydantic-ai>=2.57.0
+
+# Tracing (get_client / auth_check, OpenTelemetry export of Agent.instrument_all())
+langfuse>=5.0.2
+
+# Environment variables (.env)
+python-dotenv>=1.0
+
+# Reliability metrics (output embeddings + cosine similarity)
+sentence-transformers>=3.0
+scikit-learn>=1.4
+
+# Data handling
+numpy>=1.26
+pandas>=2.2
+
+# Jupyter kernel for running locally (Colab already provides this)
+ipykernel>=6.29
