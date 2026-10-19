@@ -13,7 +13,7 @@ Requires Python >=3.11.
    ```
 2. Install the requirements into it:
    ```bash
-   .venv/bin/pip install -r requirements.txt
+   .venv/bin/pip install -r requirements.txt ipykernel
    ```
 3. Choose `.venv` as the kernel in VS Code. Use `.env.example` as a template for generating your `.env` file: fill in your API keys and put it next to the notebook.
 
